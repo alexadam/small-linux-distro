@@ -1,1 +1,9 @@
 A small linux distro with dhcp support and a web server (based on busybox)
+
+based on the following tutorials:
+
+http://www.staldal.nu/tech/2011/12/11/how-to-roll-your-own-debian-based-linux-distro/
+
+http://www.staldal.nu/tech/2012/01/04/how-to-roll-your-own-bootable-linux-cd-rom/
+
+http://www.linuxfordevices.com/c/a/Linux-For-Devices-Articles/Tutorial-A-simple-embedded-Linux-system/
