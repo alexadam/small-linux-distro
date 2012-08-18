@@ -1,0 +1,52 @@
+.
+|-- [drwxr-xr-x]  distro
+|   |-- [drwxrwxr-x]  bin
+|   |   |-- [-rwxr-xr-x]  busybox
+|   |   `-- [lrwxrwxrwx]  sh -> busybox
+|   |-- [drwxr-xr-x]  etc
+|   |   |-- [drwxr-xr-x]  conf
+|   |   |   `-- [-rw-r--r--]  httpd.conf
+|   |   |-- [drwxrwxr-x]  init.d
+|   |   |   `-- [-rwxrwxr-x]  rcS
+|   |   `-- [-rw-r--r--]  inittab
+|   |-- [-rwxrwxr-x]  init
+|   |-- [drwxr-xr-x]  lib
+|   |   `-- [drwxr-xr-x]  modules
+|   |       `-- [drwxr-xr-x]  2.6.32-5-686
+|   |           |-- [drwxr-xr-x]  kernel
+|   |           |   `-- [drwxr-xr-x]  drivers
+|   |           |       `-- [drwxr-xr-x]  net
+|   |           |           `-- [drwxr-xr-x]  e1000
+|   |           |               `-- [-rw-r--r--]  e1000.ko
+|   |           |-- [-rw-r--r--]  modules.alias
+|   |           |-- [-rw-r--r--]  modules.dep
+|   |           |-- [-rw-r--r--]  modules.devname
+|   |           |-- [-rw-r--r--]  modules.order
+|   |           |-- [-rw-r--r--]  modules.softdep
+|   |           `-- [-rw-r--r--]  modules.symbols
+|   |-- [drwxr-xr-x]  sbin
+|   |-- [drwxrwxr-x]  usr
+|   |   |-- [drwxr-xr-x]  bin
+|   |   |-- [drwxr-xr-x]  sbin
+|   |   `-- [drwxrwxr-x]  share
+|   |       `-- [drwxrwxr-x]  udhcpc
+|   |           `-- [-rwxrwxr-x]  default.script
+|   `-- [drwxrwxr-x]  var
+|       `-- [drwxrwxr-x]  www
+|           |-- [drwxrwxr-x]  cgi-bin
+|           |   `-- [-rwxrwxr-x]  ps
+|           |-- [-rw-rw-r--]  index.html
+|           `-- [drwxr-xr-x]  super
+|               `-- [-rw-r--r--]  page.html
+|-- [-rw-r--r--]  distro.tar.gz
+|-- [drwxr-xr-x]  iso
+|   |-- [-rw-r--r--]  isolinux.bin
+|   |-- [-rw-r--r--]  isolinux.cfg
+|   |-- [-rw-r--r--]  vmlinuz
+|   `-- [-rw-r--r--]  xyz.gz
+|-- [-rw-r--r--]  orig_permissions.txt
+|-- [-rw-r--r--]  README
+|-- [-rwxrwxrwx]  script.sh
+`-- [-rw-r--r--]  xyz.iso
+
+23 directories, 26 files
