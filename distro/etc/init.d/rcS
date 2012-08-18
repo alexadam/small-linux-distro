@@ -1,7 +1,0 @@
-#!/bin/sh
-
-ifconfig lo 127.0.0.1 up
-route add 127.0.0.1 lo &
-
-udhcpc -i eth0
-httpd  -h /var/www
